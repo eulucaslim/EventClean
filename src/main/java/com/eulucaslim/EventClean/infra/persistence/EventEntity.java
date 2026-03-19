@@ -20,9 +20,10 @@ public class EventEntity {
     private Long id;
     private String name;
     private String description;
+    private String identifier;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
-    private String local;
+    private String localEvent;
     private Integer capacity;
     private String organizer;
     private EventType type;
